@@ -17,6 +17,7 @@
 ```
 
 Kết quả:
+
 ![](readme_img/random1.PNG)
 
 2. http://localhost:8080/quote trả về ngẫu nhiên một trong những câu tục ngữ
@@ -36,6 +37,7 @@ Kết quả:
 ```
 
 Kết quả:
+
 ![](readme_img/quote1.PNG)
 ![](readme_img/quote2.PNG)
 
@@ -50,6 +52,7 @@ Kết quả:
 ```
 
 Kết quả:
+
 ![](readme_img/bmi1.PNG)
 
 4. http://localhost:8080/student có 2 phương thức: GET, POST
@@ -58,12 +61,15 @@ Kết quả:
 - POST: tạo mới một student thêm vào danh sách List&lt;Student&gt;
 
 a. Bước 1: tạo đối tượng Student:
+
 ![](readme_img/student1.PNG)
 
 b. Bước 2: tạo class service thực hiện các chức năng cho Student
+
 ![](readme_img/student2.PNG)
 
 c. Bước 3: Khai báo danh sách Students trong class Controller
+
 ![](readme_img/student3.PNG)
 
 d. Bước 4: Tạo các phương thức xử lý web request
@@ -83,5 +89,6 @@ d. Bước 4: Tạo các phương thức xử lý web request
 ```
 
 Kết quả:
+
 ![](readme_img/student4.PNG)
 ![](readme_img/student5.PNG)

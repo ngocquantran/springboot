@@ -28,7 +28,7 @@ public List<Job> sortJobByLocation(ConcurrentHashMap<String, Job> jobs) {
 ```
 
 - Kết quả:
-  ![](/readme_img/sortLocation.PNG)
+  ![](readme_img/sortLocation.PNG)
 
 2. http://localhost:8080/job/salary/{salary}: tìm các job mà {salary} trong khoảng min_salary và max_salary
 
@@ -51,7 +51,7 @@ public List<Job> filterBySalary(ConcurrentHashMap<String, Job> jobs, int salary)
 ```
 
 - Kết quả:  
-  ![](/readme_img/salary.PNG)
+  ![](readme_img/salary.PNG)
 
 3. http://localhost:8080/job/keyword/{keyword} tìm các job mà title hoặc description chứa {keyword}
 
@@ -73,8 +73,8 @@ public List<Job> filterBySalary(ConcurrentHashMap<String, Job> jobs, int salary)
 ```
 
 - Kết quả:  
-  ![](/readme_img/keyword1.PNG)  
-  ![](/readme_img/keyword2.PNG)
+  ![](readme_img/keyword1.PNG)  
+  ![](readme_img/keyword2.PNG)
 
 4. http://localhost:8080/job/query?location={location}&keyword={keyword} tìm các job mà title hoặc description chứa {keyword} đồng thời location ={location}
 
@@ -97,4 +97,4 @@ public List<Job> filterBySalary(ConcurrentHashMap<String, Job> jobs, int salary)
 ```
 
 -Kết Quả:  
-![](/readme_img/location_key.PNG)
+![](readme_img/location_key.PNG)

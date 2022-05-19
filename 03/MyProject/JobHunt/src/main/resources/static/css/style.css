@@ -1,0 +1,23 @@
+.header {
+    width: 150px;
+    height: 40px;
+    color: black;
+    font-size: 18px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header  a{
+    text-decoration: none;
+}
+
+.add-btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    color: white;
+    background-color: forestgreen;
+    border-radius: 5px;
+}
+

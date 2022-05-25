@@ -110,7 +110,7 @@ public class EmployerController {
         model.addAttribute("locations", Location.values());
         model.addAttribute("types", CompanyType.values());
         model.addAttribute("newEmployer", employerForm);
-        String pathImg="/img/"+ employerForm.getImage().getOriginalFilename()+"";
+        String pathImg="/upload_img/"+ employerForm.getImage().getOriginalFilename()+"";
         EmployerRequest newEmpoyerRequest=new EmployerRequest(pathImg,employerForm.getCompanyName(),employerForm.getCompanyType(),employerForm.getLocations(),employerForm.getEmail());
         newEmpoyerRequest.setLogoPath(pathImg);
         employerRepo.addEmployers(newEmpoyerRequest);

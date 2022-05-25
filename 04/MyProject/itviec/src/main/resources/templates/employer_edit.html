@@ -27,10 +27,6 @@
     <form action="#" th:action="@{/employers/edit/{id}(id=${id})}" th:object="${employer}" method="post">
       <div class="edit-heading">CẬP NHẬT THÔNG TIN CÔNG TY</div>
 
-<!--      <div class="photo">-->
-<!--        <div class="photo-header">Chọn hình ảnh</div>-->
-<!--        <input type="file" class="form-controll" th:field="*{image}">-->
-<!--      </div>-->
 
       <div class="name input-moving-lable">
         <input type="text" id="edit-name" th:value="${employer.companyName}" th:field="*{companyName}" required/>

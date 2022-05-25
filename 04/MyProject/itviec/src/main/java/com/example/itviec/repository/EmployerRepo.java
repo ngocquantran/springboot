@@ -20,13 +20,13 @@ public class EmployerRepo {
     public EmployerRepo(){
         employers=new ConcurrentHashMap<>();
         String id1= UUID.randomUUID().toString();
-        employers.put(id1,new Employer(id1,"/img/default-avatar.jpg","Vincere", CompanyType.product, List.of(Location.hochiminh),"quan31794@gmail.com"));
+        employers.put(id1,new Employer(id1,"/img/vincere.jpg","Vincere", CompanyType.product, List.of(Location.hochiminh),"quan31794@gmail.com"));
         String id2= UUID.randomUUID().toString();
-        employers.put(id2,new Employer(id2,"/img/default-avatar.jpg","BlueBottle Digital Việt Nam", CompanyType.product, List.of(Location.hanoi),"quan31794@gmail.com"));
+        employers.put(id2,new Employer(id2,"/img/bluebottle.png","BlueBottle Digital Việt Nam", CompanyType.product, List.of(Location.hanoi),"quan31794@gmail.com"));
         String id3= UUID.randomUUID().toString();
-        employers.put(id3,new Employer(id3,"/img/default-avatar.jpg","M_Service (MoMo)", CompanyType.product, List.of(Location.hochiminh,Location.danang),"quan31794@gmail.com"));
+        employers.put(id3,new Employer(id3,"/img/momo.jpg","M_Service (MoMo)", CompanyType.product, List.of(Location.hochiminh,Location.danang),"quan31794@gmail.com"));
         String id4= UUID.randomUUID().toString();
-        employers.put(id4,new Employer(id4,"/img/default-avatar.jpg","Tyme", CompanyType.outsource, List.of(Location.hochiminh,Location.hanoi),"quan31794@gmail.com"));
+        employers.put(id4,new Employer(id4,"/img/tyme.png","Tyme", CompanyType.outsource, List.of(Location.hochiminh,Location.hanoi),"quan31794@gmail.com"));
     }
 
     public ConcurrentHashMap<String, Employer> getEmployers(){

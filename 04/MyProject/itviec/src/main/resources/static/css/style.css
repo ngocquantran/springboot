@@ -322,6 +322,8 @@ tbody {
   width: 63px;
   height: 63px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .employers .container table .logo div img {

@@ -115,7 +115,7 @@ public class EmployerController {
         newEmpoyerRequest.setLogoPath(pathImg);
         employerRepo.addEmployers(newEmpoyerRequest);
         System.out.println(newEmpoyerRequest);
-        employerRepo.getEmployers().values().stream().forEach(item -> System.out.println(item));
+
         return "redirect:/employers";
     }
 

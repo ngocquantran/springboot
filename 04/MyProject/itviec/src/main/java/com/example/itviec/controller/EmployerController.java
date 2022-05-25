@@ -82,7 +82,7 @@ public class EmployerController {
         model.addAttribute("types", CompanyType.values());
         model.addAttribute("locations", Location.values());
         model.addAttribute("id", id);
-        employerRepo.getEmployers().put(id, new Employer(id, employerRequest.getLogoPath(), employerRequest.getCompanyName(), employerRequest.getCompanyType(), employerRequest.getLocations(), employerRequest.getEmail()));
+        employerRepo.getEmployers().put(id, new Employer(id, employer.getLogoPath(), employerRequest.getCompanyName(), employerRequest.getCompanyType(), employerRequest.getLocations(), employerRequest.getEmail()));
 
         return "redirect:/employers";
     }
